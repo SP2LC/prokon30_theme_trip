@@ -1,1 +1,1 @@
-# prokon30_theme_tripbattle
+# prokon30_theme_trip
