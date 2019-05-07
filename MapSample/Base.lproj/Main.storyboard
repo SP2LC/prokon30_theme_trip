@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOZ-zR-Efz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6go-Z1-XYP">
+                                <rect key="frame" x="316" y="811" width="98" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="W8X-v0-EVl" kind="presentation" id="2KZ-7R-vQa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nOZ-zR-Efz" secondAttribute="trailing" id="CZL-tR-Dcx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nOZ-zR-Efz" secondAttribute="bottom" id="YBr-NM-76n"/>
+                            <constraint firstItem="nOZ-zR-Efz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oaQ-ID-RzG"/>
+                            <constraint firstItem="nOZ-zR-Efz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="r92-oi-BaX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="nOZ-zR-Efz" id="i1t-eQ-85c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="59.598214285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vvh-vQ-P9m">
+            <objects>
+                <viewController id="W8X-v0-EVl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5ua-SP-OQP" customClass="SecondViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-04-28 19.44.10.png" translatesAutoresizingMaskIntoConstraints="NO" id="JgO-Mi-9Ub">
+                                <rect key="frame" x="0.0" y="212" width="414" height="257"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="サレジオ工業高等専門学校" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV6-Vl-HRH">
+                                <rect key="frame" x="0.0" y="134" width="414" height="41"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JgO-Mi-9Ub" firstAttribute="leading" secondItem="Kkp-hI-FeP" secondAttribute="leading" id="6Xb-Hj-CX3"/>
+                            <constraint firstItem="JgO-Mi-9Ub" firstAttribute="trailing" secondItem="Kkp-hI-FeP" secondAttribute="trailing" id="8Jv-SZ-2cP"/>
+                            <constraint firstItem="gV6-Vl-HRH" firstAttribute="leading" secondItem="Kkp-hI-FeP" secondAttribute="leading" id="SPx-4y-bJ5"/>
+                            <constraint firstItem="JgO-Mi-9Ub" firstAttribute="top" secondItem="gV6-Vl-HRH" secondAttribute="bottom" constant="37" id="UVR-7W-1sY"/>
+                            <constraint firstItem="gV6-Vl-HRH" firstAttribute="top" secondItem="Kkp-hI-FeP" secondAttribute="top" constant="90" id="kdG-Kn-EJ4"/>
+                            <constraint firstItem="Kkp-hI-FeP" firstAttribute="trailing" secondItem="gV6-Vl-HRH" secondAttribute="trailing" id="ySs-Hq-CEL"/>
+                            <constraint firstItem="Kkp-hI-FeP" firstAttribute="trailing" secondItem="JgO-Mi-9Ub" secondAttribute="trailing" id="yhV-ON-iq3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kkp-hI-FeP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wL5-gK-evJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834.78260869565224" y="51.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="スクリーンショット 2019-04-28 19.44.10.png" width="359" height="257"/>
+    </resources>
+    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+</document>
