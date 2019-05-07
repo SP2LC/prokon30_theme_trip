@@ -15,10 +15,10 @@
 		A2026B3D22752E0800438481 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2026B3C22752E0800438481 /* MapKit.framework */; };
 		A2026B3F2275303500438481 /* TestMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2026B3E2275303500438481 /* TestMKPointAnnotation.swift */; };
 		A2026B4B2275396E00438481 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = A2026B4A2275396E00438481 /* head.png */; };
-		A27738912275B1C30092DFB0 /* RedPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = A27738902275B1C30092DFB0 /* RedPoint.png */; };
-		A27738952275BED30092DFB0 /* Salesio.png in Resources */ = {isa = PBXBuildFile; fileRef = A27738942275BED30092DFB0 /* Salesio.png */; };
 		A277389B228036A80092DFB0 /* スクリーンショット 2019-04-28 19.44.10.png in Resources */ = {isa = PBXBuildFile; fileRef = A277389A228036A80092DFB0 /* スクリーンショット 2019-04-28 19.44.10.png */; };
-		A27738A122816E730092DFB0 /* salesio2.png in Resources */ = {isa = PBXBuildFile; fileRef = A27738A022816E730092DFB0 /* salesio2.png */; };
+		B03914E722818D3100B63B2C /* RedPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = B03914E622818D3100B63B2C /* RedPoint.png */; };
+		B092606822818751000A51B0 /* salesio2.png in Resources */ = {isa = PBXBuildFile; fileRef = B092606722818751000A51B0 /* salesio2.png */; };
+		B092606C22818776000A51B0 /* Salesio.png in Resources */ = {isa = PBXBuildFile; fileRef = B092606B22818776000A51B0 /* Salesio.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +32,10 @@
 		A2026B3C22752E0800438481 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A2026B3E2275303500438481 /* TestMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMKPointAnnotation.swift; sourceTree = "<group>"; };
 		A2026B4A2275396E00438481 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
-		A27738902275B1C30092DFB0 /* RedPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RedPoint.png; path = ../../../../../../Desktop/RedPoint.png; sourceTree = "<group>"; };
-		A27738942275BED30092DFB0 /* Salesio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Salesio.png; path = ../../../../../../Desktop/Salesio.png; sourceTree = "<group>"; };
 		A277389A228036A80092DFB0 /* スクリーンショット 2019-04-28 19.44.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2019-04-28 19.44.10.png"; sourceTree = "<group>"; };
-		A27738A022816E730092DFB0 /* salesio2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salesio2.png; path = ../../../../../../Desktop/salesio2.png; sourceTree = "<group>"; };
+		B03914E622818D3100B63B2C /* RedPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedPoint.png; sourceTree = "<group>"; };
+		B092606722818751000A51B0 /* salesio2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salesio2.png; sourceTree = "<group>"; };
+		B092606B22818776000A51B0 /* Salesio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Salesio.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +93,10 @@
 		A2026B462275335C00438481 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
-				A27738A022816E730092DFB0 /* salesio2.png */,
+				B092606722818751000A51B0 /* salesio2.png */,
 				A277389A228036A80092DFB0 /* スクリーンショット 2019-04-28 19.44.10.png */,
-				A27738942275BED30092DFB0 /* Salesio.png */,
-				A27738902275B1C30092DFB0 /* RedPoint.png */,
+				B03914E622818D3100B63B2C /* RedPoint.png */,
+				B092606B22818776000A51B0 /* Salesio.png */,
 				A2026B4A2275396E00438481 /* head.png */,
 			);
 			path = Picture;
@@ -160,14 +160,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27738912275B1C30092DFB0 /* RedPoint.png in Resources */,
-				A27738A122816E730092DFB0 /* salesio2.png in Resources */,
+				B03914E722818D3100B63B2C /* RedPoint.png in Resources */,
 				A2026B3422752DF000438481 /* LaunchScreen.storyboard in Resources */,
 				A277389B228036A80092DFB0 /* スクリーンショット 2019-04-28 19.44.10.png in Resources */,
 				A2026B4B2275396E00438481 /* head.png in Resources */,
 				A2026B3122752DF000438481 /* Assets.xcassets in Resources */,
-				A27738952275BED30092DFB0 /* Salesio.png in Resources */,
 				A2026B2F22752DEF00438481 /* Main.storyboard in Resources */,
+				B092606C22818776000A51B0 /* Salesio.png in Resources */,
+				B092606822818751000A51B0 /* salesio2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +327,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5774ZS326;
 				INFOPLIST_FILE = MapSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MapSample;
+				PRODUCT_BUNDLE_IDENTIFIER = kakitasocom.example.MapSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,12 +345,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5774ZS326;
 				INFOPLIST_FILE = MapSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MapSample;
+				PRODUCT_BUNDLE_IDENTIFIER = kakitasocom.example.MapSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
