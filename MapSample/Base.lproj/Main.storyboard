@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MENU-->
         <scene sceneID="w5t-M1-qk1">
             <objects>
                 <viewController id="UwO-2z-3t0" sceneMemberID="viewController">
@@ -21,7 +21,7 @@
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V0f-a7-xTt">
                                 <rect key="frame" x="27" y="182" width="176" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="couple" backgroundImage="mens">
+                                <state key="normal" backgroundImage="mens">
                                     <attributedString key="attributedTitle">
                                         <fragment content="男友達と">
                                             <attributes>
@@ -38,9 +38,12 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="fgT-b9-gfS" kind="push" id="U9A-KQ-IQm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Esk-wf-wVb">
-                                <rect key="frame" x="211" y="179" width="176" height="100"/>
+                                <rect key="frame" x="211" y="182" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="girls-2">
                                     <attributedString key="attributedTitle">
@@ -240,7 +243,7 @@
                                 <color key="highlightedColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j9X-gk-437">
-                                <rect key="frame" x="211" y="568" width="176" height="100"/>
+                                <rect key="frame" x="211" y="563" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="girls-2">
                                     <attributedString key="attributedTitle">
@@ -264,11 +267,30 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="QM1-Bw-uNx"/>
                     </view>
-                    <navigationItem key="navigationItem" id="YfR-dU-nX9"/>
+                    <navigationItem key="navigationItem" title="MENU" id="YfR-dU-nX9"/>
+                    <connections>
+                        <segue destination="fgT-b9-gfS" kind="push" id="J0G-tw-Sg8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NIp-g6-eBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.637681159420293" y="-227.00892857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eF7-xh-TOE">
+            <objects>
+                <viewController id="fgT-b9-gfS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0we-WT-H7z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="yjA-HK-knF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vec-Ak-HhQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lVB-EW-aqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="849" y="-225"/>
         </scene>
         <!--過去の旅行-->
         <scene sceneID="IDB-93-IPy">
@@ -435,7 +457,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="czs-95-HHX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="3Ta-nw-q87" kind="relationship" relationship="viewControllers" id="GZS-Xt-ht5"/>
@@ -447,7 +470,7 @@
             </objects>
             <point key="canvasLocation" x="-1861" y="-518"/>
         </scene>
-        <!--View Controller-->
+        <!--map-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -475,7 +498,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HQj-Ps-dh3"/>
+                    <navigationItem key="navigationItem" title="map" id="HQj-Ps-dh3"/>
                     <connections>
                         <outlet property="mapView" destination="nOZ-zR-Efz" id="i1t-eQ-85c"/>
                     </connections>
@@ -530,6 +553,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OOC-JJ-jKG">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -549,6 +576,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KAK-4E-cJb">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -568,6 +600,18 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="njd-63-eD4">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -584,15 +628,15 @@
         <image name="daibutu" width="426.66665649414062" height="308.66665649414062"/>
         <image name="daibutu_2" width="426.66665649414062" height="320"/>
         <image name="enkakuji" width="426.66665649414062" height="284.33334350585938"/>
-        <image name="genjitsu" width="16" height="16"/>
-        <image name="girls-2" width="16" height="16"/>
+        <image name="genjitsu" width="640" height="320"/>
+        <image name="girls-2" width="640" height="426.66665649414062"/>
         <image name="hitori" width="640" height="329"/>
         <image name="jinja" width="426.66665649414062" height="284.33334350585938"/>
         <image name="map" width="16" height="16"/>
         <image name="mens" width="640" height="426.33334350585938"/>
         <image name="menu" width="16" height="16"/>
         <image name="okinawa" width="426.66665649414062" height="284.33334350585938"/>
-        <image name="ramen" width="16" height="16"/>
+        <image name="ramen" width="640" height="426.66665649414062"/>
         <image name="review" width="16" height="16"/>
         <image name="sapporo" width="426.66665649414062" height="284.33334350585938"/>
         <image name="tokyo" width="426.66665649414062" height="246"/>
@@ -600,5 +644,8 @@
         <image name="zou" width="426.66665649414062" height="320"/>
         <image name="スクリーンショット 2019-04-28 19.44.10.png" width="359" height="257"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="U9A-KQ-IQm"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
