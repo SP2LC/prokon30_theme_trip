@@ -261,7 +261,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="QM1-Bw-uNx"/>
                     </view>
                     <navigationItem key="navigationItem" id="YfR-dU-nX9"/>
@@ -270,21 +270,163 @@
             </objects>
             <point key="canvasLocation" x="24.637681159420293" y="-227.00892857142856"/>
         </scene>
-        <!--review-->
+        <!--過去の旅行-->
         <scene sceneID="IDB-93-IPy">
             <objects>
                 <viewController id="eW1-AR-H4L" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BAf-9H-Dod">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bf-E3-78f">
+                                <rect key="frame" x="0.0" y="228" width="414" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="mcW-ZE-z9B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="京都" backgroundImage="jinja">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euG-d9-ZxG">
+                                <rect key="frame" x="0.0" y="508" width="414" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="idh-LG-oS6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="東京" backgroundImage="tokyo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZb-NX-VLT">
+                                <rect key="frame" x="0.0" y="648" width="414" height="165"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="札幌" backgroundImage="sapporo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kax-mw-MIa">
+                                <rect key="frame" x="0.0" y="88" width="414" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="c81-X9-tUh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="鎌倉" backgroundImage="daibutu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Crg-nV-EHO" kind="push" id="0zr-Hx-4vs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZD-kL-4yy">
+                                <rect key="frame" x="0.0" y="368" width="414" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="t3K-GX-Fet"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="沖縄" backgroundImage="okinawa">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="euG-d9-ZxG" firstAttribute="leading" secondItem="yxI-0m-EbZ" secondAttribute="leading" id="1YZ-eB-rvf"/>
+                            <constraint firstItem="6Bf-E3-78f" firstAttribute="top" secondItem="kax-mw-MIa" secondAttribute="bottom" id="2uc-7d-SE2"/>
+                            <constraint firstItem="cZb-NX-VLT" firstAttribute="trailing" secondItem="euG-d9-ZxG" secondAttribute="trailing" id="3TW-CW-JxG"/>
+                            <constraint firstItem="MZD-kL-4yy" firstAttribute="top" secondItem="6Bf-E3-78f" secondAttribute="bottom" id="4Yr-e1-KT5"/>
+                            <constraint firstItem="euG-d9-ZxG" firstAttribute="top" secondItem="MZD-kL-4yy" secondAttribute="bottom" id="5rH-Mc-f44"/>
+                            <constraint firstItem="cZb-NX-VLT" firstAttribute="bottom" secondItem="yxI-0m-EbZ" secondAttribute="bottom" id="7qD-My-GY5"/>
+                            <constraint firstItem="cZb-NX-VLT" firstAttribute="leading" secondItem="euG-d9-ZxG" secondAttribute="leading" id="8r0-aX-dD9"/>
+                            <constraint firstItem="6Bf-E3-78f" firstAttribute="top" secondItem="kax-mw-MIa" secondAttribute="bottom" id="Aju-af-fUg"/>
+                            <constraint firstItem="kax-mw-MIa" firstAttribute="top" secondItem="yxI-0m-EbZ" secondAttribute="top" id="BLg-rE-gW2"/>
+                            <constraint firstItem="MZD-kL-4yy" firstAttribute="top" secondItem="6Bf-E3-78f" secondAttribute="bottom" id="Bse-Xc-IoK"/>
+                            <constraint firstItem="euG-d9-ZxG" firstAttribute="trailing" secondItem="yxI-0m-EbZ" secondAttribute="trailing" id="Eal-4H-ZEr"/>
+                            <constraint firstItem="MZD-kL-4yy" firstAttribute="trailing" secondItem="yxI-0m-EbZ" secondAttribute="trailing" id="IZ4-DU-7Ud"/>
+                            <constraint firstItem="euG-d9-ZxG" firstAttribute="top" secondItem="MZD-kL-4yy" secondAttribute="bottom" id="RdD-ri-hLh"/>
+                            <constraint firstItem="cZb-NX-VLT" firstAttribute="top" secondItem="euG-d9-ZxG" secondAttribute="bottom" id="VET-S4-eiO"/>
+                            <constraint firstItem="6Bf-E3-78f" firstAttribute="trailing" secondItem="yxI-0m-EbZ" secondAttribute="trailing" id="lRU-nP-gHD"/>
+                            <constraint firstItem="kax-mw-MIa" firstAttribute="trailing" secondItem="yxI-0m-EbZ" secondAttribute="trailing" id="lnd-xX-iIG"/>
+                            <constraint firstItem="6Bf-E3-78f" firstAttribute="leading" secondItem="yxI-0m-EbZ" secondAttribute="leading" id="lwz-UD-CoT"/>
+                            <constraint firstItem="kax-mw-MIa" firstAttribute="leading" secondItem="yxI-0m-EbZ" secondAttribute="leading" id="rqj-GS-y1y"/>
+                            <constraint firstItem="MZD-kL-4yy" firstAttribute="leading" secondItem="yxI-0m-EbZ" secondAttribute="leading" id="ttb-ah-gS0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yxI-0m-EbZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="review" image="review" id="Hbe-Sk-dEW"/>
+                    <navigationItem key="navigationItem" title="過去の旅行" id="WdT-Ry-wZO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWW-iO-NVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-810" y="466"/>
+            <point key="canvasLocation" x="44.927536231884062" y="464.73214285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BVk-So-hBe">
+            <objects>
+                <viewController id="Crg-nV-EHO" userLabel="View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LZA-EF-KmO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qr3-3k-Cq6">
+                                <rect key="frame" x="0.0" y="532" width="414" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="train"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdE-h7-4Wq">
+                                <rect key="frame" x="0.0" y="384" width="414" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="enkakuji"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxA-ff-vjl">
+                                <rect key="frame" x="0.0" y="236" width="414" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="daibutu"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPd-SI-ZRB">
+                                <rect key="frame" x="0.0" y="88" width="414" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="daibutu_2"/>
+                                <connections>
+                                    <segue destination="tnO-VG-wh9" kind="push" id="HMn-F4-sls"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQN-pX-Sfv">
+                                <rect key="frame" x="0.0" y="680" width="414" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="zou"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="QpG-YX-dFE"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="鎌倉" id="zwp-CK-MsF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFy-Yf-jaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="849" y="465"/>
+        </scene>
+        <!--大仏-->
+        <scene sceneID="fCD-vF-ZL5">
+            <objects>
+                <viewController id="tnO-VG-wh9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="chD-Lh-S6J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="daibutu_2" translatesAutoresizingMaskIntoConstraints="NO" id="HP3-Ae-WvM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="jTG-2X-rpt"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="大仏" id="Usq-sL-xHs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMT-KK-bYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1641" y="465"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="zlu-Vt-gcM">
@@ -298,7 +440,7 @@
                     <connections>
                         <segue destination="3Ta-nw-q87" kind="relationship" relationship="viewControllers" id="GZS-Xt-ht5"/>
                         <segue destination="P6Y-yC-WEQ" kind="relationship" relationship="viewControllers" id="HFl-FI-z9B"/>
-                        <segue destination="eW1-AR-H4L" kind="relationship" relationship="viewControllers" id="n92-eE-Oad"/>
+                        <segue destination="q1m-0r-ZqX" kind="relationship" relationship="viewControllers" id="n92-eE-Oad"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SYY-9X-qhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -417,17 +559,45 @@
             </objects>
             <point key="canvasLocation" x="-713.04347826086962" y="-1167.1875"/>
         </scene>
+        <!--review-->
+        <scene sceneID="V46-WG-POq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q1m-0r-ZqX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="review" image="review" id="Hbe-Sk-dEW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="njd-63-eD4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eW1-AR-H4L" kind="relationship" relationship="rootViewController" id="RAD-Mx-oY7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="duX-N1-fgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-865.21739130434787" y="464.73214285714283"/>
+        </scene>
     </scenes>
     <resources>
         <image name="couple" width="640" height="427"/>
+        <image name="daibutu" width="426.66665649414062" height="308.66665649414062"/>
+        <image name="daibutu_2" width="426.66665649414062" height="320"/>
+        <image name="enkakuji" width="426.66665649414062" height="284.33334350585938"/>
         <image name="genjitsu" width="16" height="16"/>
         <image name="girls-2" width="16" height="16"/>
         <image name="hitori" width="640" height="329"/>
+        <image name="jinja" width="426.66665649414062" height="284.33334350585938"/>
         <image name="map" width="16" height="16"/>
         <image name="mens" width="640" height="426.33334350585938"/>
         <image name="menu" width="16" height="16"/>
+        <image name="okinawa" width="426.66665649414062" height="284.33334350585938"/>
         <image name="ramen" width="16" height="16"/>
         <image name="review" width="16" height="16"/>
+        <image name="sapporo" width="426.66665649414062" height="284.33334350585938"/>
+        <image name="tokyo" width="426.66665649414062" height="246"/>
+        <image name="train" width="119.66666412353516" height="80"/>
+        <image name="zou" width="426.66665649414062" height="320"/>
         <image name="スクリーンショット 2019-04-28 19.44.10.png" width="359" height="257"/>
     </resources>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>

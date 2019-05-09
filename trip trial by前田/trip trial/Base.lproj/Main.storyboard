@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gNI-ao-9Nh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gNI-ao-9Nh">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -86,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="133.92857142857142"/>
+            <point key="canvasLocation" x="-168" y="110"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EgN-IJ-vIT">
@@ -152,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2z-Xt-ChW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="860.86956521739137" y="133.92857142857142"/>
+            <point key="canvasLocation" x="667" y="110"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ndo-yU-biL">
@@ -188,19 +188,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wf-f2-QcK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1586.9565217391305" y="133.92857142857142"/>
+            <point key="canvasLocation" x="1765" y="110"/>
         </scene>
     </scenes>
     <resources>
         <image name="daibutu.jpg" width="1280" height="926"/>
-        <image name="daibutu_2.jpg" width="1280" height="960"/>
-        <image name="enkakuji.jpg" width="1280" height="853"/>
-        <image name="jinja.jpg" width="1280" height="853"/>
-        <image name="okinawa.jpg" width="1280" height="853"/>
+        <image name="daibutu_2.jpg" width="307.20001220703125" height="230.39999389648438"/>
+        <image name="enkakuji.jpg" width="307.20001220703125" height="204.72000122070312"/>
+        <image name="jinja.jpg" width="307.20001220703125" height="204.72000122070312"/>
+        <image name="okinawa.jpg" width="307.20001220703125" height="204.72000122070312"/>
         <image name="sapporo.jpg" width="1280" height="853"/>
-        <image name="tokyo.jpg" width="1280" height="738"/>
+        <image name="tokyo.jpg" width="307.20001220703125" height="177.1199951171875"/>
         <image name="train.jpg" width="359" height="240"/>
-        <image name="zou.jpg" width="1280" height="960"/>
+        <image name="zou.jpg" width="307.20001220703125" height="230.39999389648438"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6Ut-Sg-oY4"/>
