@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-<<<<<<< HEAD
-    <device id="retina6_5" orientation="portrait">
-=======
     <device id="retina6_1" orientation="portrait">
->>>>>>> e1ffd5715c6d51805f9c86d3dc31e82ff8090d43
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -619,17 +615,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezg-iw-BTy" userLabel="温泉">
-<<<<<<< HEAD
-                                <rect key="frame" x="20" y="471" width="180" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="温泉" backgroundImage="温泉.jpg">
-=======
                                 <rect key="frame" x="20" y="515" width="180" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" backgroundImage="温泉.jpg">
->>>>>>> e1ffd5715c6d51805f9c86d3dc31e82ff8090d43
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -683,16 +672,6 @@
                                     <segue destination="5sz-3S-0Ob" kind="presentation" id="A5T-sB-yxA"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kS-km-R3r" userLabel="フェス">
-                                <rect key="frame" x="214" y="604" width="180" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="フェス" backgroundImage="フェス.jpg">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-=======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="男友達と！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COI-UA-r0b">
                                 <rect key="frame" x="59" y="379" width="102" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -761,7 +740,6 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
->>>>>>> e1ffd5715c6d51805f9c86d3dc31e82ff8090d43
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="MZ6-No-ylw"/>
@@ -884,13 +862,6 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="遊園地で有意義な1日を！感情を解放しましょう！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Bi-l6-7JJ">
-                                <rect key="frame" x="214" y="414" width="180" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="山好き集まれ！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6b-30-XVu">
                                 <rect key="frame" x="39" y="706" width="143" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -919,6 +890,13 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="遊園地で有意義な1日を！感情を解放しましょう！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Bi-l6-7JJ">
+                                <rect key="frame" x="214" y="414" width="180" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="yjr-Mm-TdT"/>
@@ -942,18 +920,10 @@
         <image name="ひとり旅.jpg" width="680" height="437"/>
         <image name="カフェ.jpg" width="1000" height="666"/>
         <image name="サレジオ.jpg" width="205.71427917480469" height="138.65142822265625"/>
-<<<<<<< HEAD
-        <image name="フェス.jpg" width="1200" height="799"/>
-        <image name="京都.jpg" width="473" height="316"/>
-        <image name="北海道.jpg" width="1920" height="1280"/>
-        <image name="女友達.jpg" width="600" height="399"/>
-        <image name="恋人.jpg" width="153.60000610351562" height="102.23999786376953"/>
-=======
         <image name="パワスポ.jpeg" width="200" height="200"/>
         <image name="京都.jpg" width="473" height="316"/>
         <image name="北海道.jpg" width="1920" height="1280"/>
         <image name="山.jpg" width="166.80000305175781" height="110.40000152587891"/>
->>>>>>> e1ffd5715c6d51805f9c86d3dc31e82ff8090d43
         <image name="東京.jpg" width="158.39999389648438" height="89"/>
         <image name="沖縄.jpg" width="1000" height="642"/>
         <image name="海.jpg" width="1173.5999755859375" height="795.9000244140625"/>
@@ -963,22 +933,12 @@
         <image name="神社.jpg" width="1920" height="1080"/>
         <image name="祭り.jpg" width="1200" height="800"/>
         <image name="自然.jpg" width="154.28572082519531" height="102.85713958740234"/>
-<<<<<<< HEAD
-        <image name="鎌倉.jpg" width="760" height="507"/>
-    </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="6su-uV-D2e"/>
-        <segue reference="Vol-Am-NbO"/>
-        <segue reference="c1N-wN-iDX"/>
-=======
         <image name="遊園地.jpg" width="502.5" height="457.5"/>
         <image name="鎌倉.jpg" width="760" height="507"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="A5T-sB-yxA"/>
         <segue reference="3Uk-eq-co9"/>
         <segue reference="rq8-oD-6LN"/>
->>>>>>> e1ffd5715c6d51805f9c86d3dc31e82ff8090d43
         <segue reference="Zly-LS-Vf2"/>
         <segue reference="BCn-OO-fIb"/>
     </inferredMetricsTieBreakers>
