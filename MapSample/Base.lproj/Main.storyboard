@@ -22,14 +22,7 @@
                                 <rect key="frame" x="27" y="182" width="176" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="mens">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="男友達と">
-                                            <attributes>
-                                                <color key="NSColor" red="0.33327532405680171" green="0.69346698918944627" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="28" name="ToppanBunkyuMidashiMinchoStdN-ExtraBold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="mens"/>
                                 <userDefinedRuntimeAttributes>
@@ -46,14 +39,7 @@
                                 <rect key="frame" x="211" y="182" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="girls-2">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="女友達と">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="0.28253037211893905" blue="0.41976352286545049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="Osaka"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -66,14 +52,7 @@
                                 <rect key="frame" x="27" y="287" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="hitori">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="一人旅へ">
-                                            <attributes>
-                                                <color key="NSColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="30" name="HiraMinProN-W6"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -86,14 +65,7 @@
                                 <rect key="frame" x="211" y="287" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="couple">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="恋人と">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="30" name="Klee-Medium"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -102,20 +74,28 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" placeholder="検索したい地名やスポットを入力" translatesAutoresizingMaskIntoConstraints="NO" id="KsL-gD-YAv">
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="検索したい地名やスポットを入力" translatesAutoresizingMaskIntoConstraints="NO" id="KsL-gD-YAv">
                                 <rect key="frame" x="0.0" y="88" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0s-TB-9QF">
-                                <rect key="frame" x="27" y="149" width="237" height="25"/>
+                                <rect key="frame" x="27" y="149" width="102" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Who are you going with? ">
+                                    <fragment content="誰と行く">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="21" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="? ">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="21" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -125,15 +105,7 @@
                                 <rect key="frame" x="27" y="437" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="genjitsu">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="現実逃避">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="28" name="TsukuARdGothic-Regular"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="mens"/>
                                 <userDefinedRuntimeAttributes>
@@ -147,15 +119,7 @@
                                 <rect key="frame" x="211" y="437" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="ramen">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="ラーメン">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="30" name="Osaka"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -167,16 +131,8 @@
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e4d-kO-Jh5">
                                 <rect key="frame" x="27" y="563" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="mens">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="フェス">
-                                            <attributes>
-                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="30" name="ToppanBunkyuMidashiMinchoStdN-ExtraBold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <state key="normal" backgroundImage="フェス">
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="mens"/>
                                 <userDefinedRuntimeAttributes>
@@ -190,14 +146,7 @@
                                 <rect key="frame" x="27" y="689" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="mens">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="男友達と">
-                                            <attributes>
-                                                <color key="NSColor" red="0.33327532405680171" green="0.69346698918944627" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="ToppanBunkyuMidashiMinchoStdN-ExtraBold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="mens"/>
                                 <userDefinedRuntimeAttributes>
@@ -210,15 +159,8 @@
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="of6-il-Ejh">
                                 <rect key="frame" x="211" y="689" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="girls-2">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="女友達と">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="0.28253037211893905" blue="0.41976352286545049" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="30" name="Osaka"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <state key="normal" backgroundImage="祭り">
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -245,16 +187,8 @@
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j9X-gk-437">
                                 <rect key="frame" x="211" y="563" width="176" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="girls-2">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="インスタ映え">
-                                            <attributes>
-                                                <color key="NSColor" red="0.81176470588235294" green="0.1803921568627451" blue="0.5725490196078431" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="24" name="Osaka"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <state key="normal" backgroundImage="jinja">
+                                    <attributedString key="attributedTitle"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -264,13 +198,10 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QM1-Bw-uNx"/>
                     </view>
                     <navigationItem key="navigationItem" title="MENU" id="YfR-dU-nX9"/>
-                    <connections>
-                        <segue destination="fgT-b9-gfS" kind="push" id="J0G-tw-Sg8"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NIp-g6-eBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -283,10 +214,11 @@
                     <view key="view" contentMode="scaleToFill" id="0we-WT-H7z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yjA-HK-knF"/>
                     </view>
-                    <navigationItem key="navigationItem" id="vec-Ak-HhQ"/>
+                    <navigationItem key="navigationItem" id="vec-Ak-HhQ" colorLabel="IBBuiltInLabel-Gray"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lVB-EW-aqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -352,7 +284,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="euG-d9-ZxG" firstAttribute="leading" secondItem="yxI-0m-EbZ" secondAttribute="leading" id="1YZ-eB-rvf"/>
                             <constraint firstItem="6Bf-E3-78f" firstAttribute="top" secondItem="kax-mw-MIa" secondAttribute="bottom" id="2uc-7d-SE2"/>
@@ -419,7 +351,7 @@
                                 <state key="normal" backgroundImage="zou"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QpG-YX-dFE"/>
                     </view>
                     <navigationItem key="navigationItem" title="鎌倉" id="zwp-CK-MsF"/>
@@ -439,9 +371,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="daibutu_2" translatesAutoresizingMaskIntoConstraints="NO" id="HP3-Ae-WvM">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jTG-2X-rpt"/>
                     </view>
                     <navigationItem key="navigationItem" title="大仏" id="Usq-sL-xHs"/>
@@ -457,8 +390,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="czs-95-HHX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="3Ta-nw-q87" kind="relationship" relationship="viewControllers" id="GZS-Xt-ht5"/>
@@ -470,7 +401,7 @@
             </objects>
             <point key="canvasLocation" x="-1861" y="-518"/>
         </scene>
-        <!--map-->
+        <!--MAP-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -480,6 +411,8 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOZ-zR-Efz">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6go-Z1-XYP">
                                 <rect key="frame" x="38" y="722" width="78" height="45"/>
@@ -489,7 +422,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nOZ-zR-Efz" secondAttribute="trailing" id="CZL-tR-Dcx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nOZ-zR-Efz" secondAttribute="bottom" id="YBr-NM-76n"/>
@@ -498,7 +431,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="map" id="HQj-Ps-dh3"/>
+                    <navigationItem key="navigationItem" title="MAP" id="HQj-Ps-dh3" colorLabel="IBBuiltInLabel-Blue"/>
                     <connections>
                         <outlet property="mapView" destination="nOZ-zR-Efz" id="i1t-eQ-85c"/>
                     </connections>
@@ -515,18 +448,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2019-04-28 19.44.10.png" translatesAutoresizingMaskIntoConstraints="NO" id="JgO-Mi-9Ub">
-                                <rect key="frame" x="0.0" y="256" width="414" height="257"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="スクリーンショット 2019-04-28 19.44.10.png" translatesAutoresizingMaskIntoConstraints="NO" id="JgO-Mi-9Ub">
+                                <rect key="frame" x="0.0" y="158" width="414" height="257"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="サレジオ工業高等専門学校" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV6-Vl-HRH">
-                                <rect key="frame" x="0.0" y="178" width="414" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="サレジオ工業高等専門学校" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV6-Vl-HRH">
+                                <rect key="frame" x="0.0" y="109" width="414" height="41"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="JgO-Mi-9Ub" firstAttribute="leading" secondItem="Kkp-hI-FeP" secondAttribute="leading" id="6Xb-Hj-CX3"/>
                             <constraint firstItem="JgO-Mi-9Ub" firstAttribute="trailing" secondItem="Kkp-hI-FeP" secondAttribute="trailing" id="8Jv-SZ-2cP"/>
@@ -542,7 +475,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wL5-gK-evJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1663.7681159420292" y="-1236.1607142857142"/>
+            <point key="canvasLocation" x="1131.8840579710145" y="-1167.1875"/>
         </scene>
         <!--menu-->
         <scene sceneID="QE6-ek-KCl">
@@ -553,9 +486,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OOC-JJ-jKG">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -576,10 +508,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KAK-4E-cJb">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -600,11 +533,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="njd-63-eD4">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
@@ -643,9 +573,7 @@
         <image name="train" width="119.66666412353516" height="80"/>
         <image name="zou" width="426.66665649414062" height="320"/>
         <image name="スクリーンショット 2019-04-28 19.44.10.png" width="359" height="257"/>
+        <image name="フェス" width="400" height="266.33334350585938"/>
+        <image name="祭り" width="400" height="266.66665649414062"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="U9A-KQ-IQm"/>
-    </inferredMetricsTieBreakers>
-    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>

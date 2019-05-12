@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "京都"; ObjectID = "6Bf-E3-78f"; */
+"6Bf-E3-78f.normalTitle" = "京都";
+
+/* Class = "UINavigationItem"; title = "map"; ObjectID = "HQj-Ps-dh3"; */
+"HQj-Ps-dh3.title" = "map";
+
+/* Class = "UITabBarItem"; title = "review"; ObjectID = "Hbe-Sk-dEW"; */
+"Hbe-Sk-dEW.title" = "review";
+
+/* Class = "UISearchBar"; placeholder = "検索したい地名やスポットを入力"; ObjectID = "KsL-gD-YAv"; */
+"KsL-gD-YAv.placeholder" = "検索したい地名やスポットを入力";
+
+/* Class = "UIButton"; normalTitle = "沖縄"; ObjectID = "MZD-kL-4yy"; */
+"MZD-kL-4yy.normalTitle" = "沖縄";
+
+/* Class = "UINavigationItem"; title = "大仏"; ObjectID = "Usq-sL-xHs"; */
+"Usq-sL-xHs.title" = "大仏";
+
+/* Class = "UINavigationItem"; title = "過去の旅行"; ObjectID = "WdT-Ry-wZO"; */
+"WdT-Ry-wZO.title" = "過去の旅行";
+
+/* Class = "UINavigationItem"; title = "MENU"; ObjectID = "YfR-dU-nX9"; */
+"YfR-dU-nX9.title" = "MENU";
+
+/* Class = "UIButton"; normalTitle = "札幌"; ObjectID = "cZb-NX-VLT"; */
+"cZb-NX-VLT.normalTitle" = "札幌";
+
+/* Class = "UIButton"; normalTitle = "東京"; ObjectID = "euG-d9-ZxG"; */
+"euG-d9-ZxG.normalTitle" = "東京";
+
+/* Class = "UITabBarItem"; title = "menu"; ObjectID = "fZB-ts-DHU"; */
+"fZB-ts-DHU.title" = "menu";
+
+/* Class = "UILabel"; text = "サレジオ工業高等専門学校"; ObjectID = "gV6-Vl-HRH"; */
+"gV6-Vl-HRH.text" = "サレジオ工業高等専門学校";
+
+/* Class = "UIButton"; normalTitle = "鎌倉"; ObjectID = "kax-mw-MIa"; */
+"kax-mw-MIa.normalTitle" = "鎌倉";
+
+/* Class = "UITabBarItem"; title = "map"; ObjectID = "xzb-fK-wKb"; */
+"xzb-fK-wKb.title" = "map";
+
+/* Class = "UINavigationItem"; title = "鎌倉"; ObjectID = "zwp-CK-MsF"; */
+"zwp-CK-MsF.title" = "鎌倉";

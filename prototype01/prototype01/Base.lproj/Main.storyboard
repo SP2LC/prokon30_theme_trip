@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -96,9 +96,9 @@
                                 <rect key="frame" x="20" y="498" width="374" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">サレジオ工業高等専門学校（サレジオこうぎょうこうとうせんもんがっこう）は東京都町田市にある高等専門学校。略称はサレジオ高専。全国唯一の技術系ミッションスクールとして歴史と伝統を誇る。とりわけ、ビジュアル情報工学科は日本で最初にラテン語辞書を印刷した印刷（工学）科を承継し、多数の著名な同窓生を輩出している。
+                                <string key="text">サレジオ工業高等専門学校（サレジオこうぎょうこうとうせんもんがっこう）は東京都町田市にある高等専門学校。略称はサレジオ高専。全国唯一の技術系ミッションスクールとして歴史と伝統を誇る。とりわけ、ビジュアル情報工学科は日本で最初にラテン語辞書を印刷した印刷（工学）科を承継し、多数の著名な同窓生を輩出している。
 国内外のソーラーカーレース、鳥人間コンテスト、ロボットコンテスト等の出場校としても有名。2007年（平成19年）のロボットコンテストではロボコン大賞、特別賞（本田技研工業）を受賞した[1]。
-2016年春アニメのキズナイーバーの舞台(聖地)となっている。クレジットにはロケハン協力としてサレジオ高専が載っている。https://ja.wikipedia.org/wiki/サレジオ工業高等専門学校</mutableString>
+2016年春アニメのキズナイーバーの舞台(聖地)となっている。クレジットにはロケハン協力としてサレジオ高専が載っている。https://ja.wikipedia.org/wiki/サレジオ工業高等専門学校</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -469,14 +469,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kS-km-R3r" userLabel="フェス">
-                                <rect key="frame" x="214" y="604" width="180" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="フェス" backgroundImage="フェス.jpg">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNA-SS-feM" userLabel="祭り">
                                 <rect key="frame" x="20" y="604" width="180" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -555,6 +547,14 @@
                                 <connections>
                                     <segue destination="875-b2-Bkn" kind="presentation" id="BCn-OO-fIb"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kS-km-R3r" userLabel="フェス">
+                                <rect key="frame" x="214" y="604" width="180" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="フェス" backgroundImage="フェス.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
@@ -643,36 +643,37 @@
         </scene>
     </scenes>
     <resources>
-        <image name="b.jpeg" width="700" height="467"/>
-        <image name="c.jpg" width="660" height="440"/>
+        <image name="b.jpeg" width="525" height="350.25"/>
+        <image name="c.jpg" width="158.39999389648438" height="105.59999847412109"/>
         <image name="d.jpg" width="720" height="480"/>
         <image name="e.jpg" width="640" height="480"/>
-        <image name="f.jpg" width="660" height="371"/>
+        <image name="f.jpg" width="158.39999389648438" height="89"/>
         <image name="g.jpg" width="1200" height="800"/>
         <image name="h.jpg" width="670" height="443"/>
-        <image name="i.jpeg" width="700" height="466"/>
+        <image name="i.jpeg" width="210" height="139.80000305175781"/>
         <image name="j.jpeg" width="700" height="463"/>
         <image name="ひとり旅.jpg" width="680" height="437"/>
         <image name="カフェ.jpg" width="1000" height="666"/>
-        <image name="サレジオ.jpg" width="1000" height="674"/>
+        <image name="サレジオ.jpg" width="205.71427917480469" height="138.65142822265625"/>
         <image name="フェス.jpg" width="1200" height="799"/>
         <image name="京都.jpg" width="473" height="316"/>
         <image name="北海道.jpg" width="1920" height="1280"/>
         <image name="女友達.jpg" width="600" height="399"/>
-        <image name="恋人.jpg" width="640" height="426"/>
-        <image name="東京.jpg" width="660" height="371"/>
+        <image name="恋人.jpg" width="153.60000610351562" height="102.23999786376953"/>
+        <image name="東京.jpg" width="158.39999389648438" height="89"/>
         <image name="沖縄.jpg" width="1000" height="642"/>
         <image name="温泉.jpg" width="670" height="443"/>
         <image name="犬.jpeg" width="275" height="183"/>
         <image name="男友達.jpg" width="550" height="290"/>
         <image name="祭り.jpg" width="1200" height="800"/>
-        <image name="自然.jpg" width="750" height="500"/>
+        <image name="自然.jpg" width="154.28572082519531" height="102.85713958740234"/>
         <image name="鎌倉.jpg" width="760" height="507"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="6su-uV-D2e"/>
         <segue reference="Vol-Am-NbO"/>
         <segue reference="c1N-wN-iDX"/>
-        <segue reference="blf-4o-b44"/>
-        <segue reference="Qc0-u8-XgS"/>
+        <segue reference="Zly-LS-Vf2"/>
+        <segue reference="BCn-OO-fIb"/>
     </inferredMetricsTieBreakers>
 </document>

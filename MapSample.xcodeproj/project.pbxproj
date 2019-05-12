@@ -34,6 +34,7 @@
 		A2026B4A2275396E00438481 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
 		A277389A228036A80092DFB0 /* スクリーンショット 2019-04-28 19.44.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2019-04-28 19.44.10.png"; sourceTree = "<group>"; };
 		B03914E622818D3100B63B2C /* RedPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedPoint.png; sourceTree = "<group>"; };
+		B03914E92287382200B63B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		B092606722818751000A51B0 /* salesio2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salesio2.png; sourceTree = "<group>"; };
 		B092606B22818776000A51B0 /* Salesio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Salesio.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +129,10 @@
 		A2026B1E22752DEF00438481 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					a,
+					aaa,
+				);
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = maruo;
@@ -191,6 +196,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A2026B2E22752DEF00438481 /* Base */,
+				B03914E92287382200B63B2C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
