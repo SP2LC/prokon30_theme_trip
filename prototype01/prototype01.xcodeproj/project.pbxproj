@@ -14,15 +14,9 @@
 		26151D7A2286F1AB001D7EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26151D782286F1AB001D7EA8 /* LaunchScreen.storyboard */; };
 		26151D852286F1AB001D7EA8 /* prototype01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26151D842286F1AB001D7EA8 /* prototype01Tests.swift */; };
 		26151D932286FACF001D7EA8 /* ひとり旅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D8F2286FACE001D7EA8 /* ひとり旅.jpg */; };
-		26151D942286FACF001D7EA8 /* 女友達.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D902286FACE001D7EA8 /* 女友達.jpg */; };
 		26151D952286FACF001D7EA8 /* 男友達.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D912286FACE001D7EA8 /* 男友達.jpg */; };
-		26151D962286FACF001D7EA8 /* 恋人.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D922286FACF001D7EA8 /* 恋人.jpg */; };
-		26151D9B2286FBBF001D7EA8 /* 自然.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D972286FBBE001D7EA8 /* 自然.jpg */; };
-		26151D9C2286FBBF001D7EA8 /* フェス.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D982286FBBE001D7EA8 /* フェス.jpg */; };
-		26151D9D2286FBBF001D7EA8 /* カフェ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D992286FBBF001D7EA8 /* カフェ.jpg */; };
 		26151D9E2286FBBF001D7EA8 /* 温泉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D9A2286FBBF001D7EA8 /* 温泉.jpg */; };
 		26151DA02286FC01001D7EA8 /* 祭り.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151D9F2286FC01001D7EA8 /* 祭り.jpg */; };
-		26151DA22286FC46001D7EA8 /* 犬.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26151DA12286FC46001D7EA8 /* 犬.jpeg */; };
 		26151DA8228703A9001D7EA8 /* 沖縄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151DA3228703A7001D7EA8 /* 沖縄.jpg */; };
 		26151DA9228703A9001D7EA8 /* 鎌倉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151DA4228703A7001D7EA8 /* 鎌倉.jpg */; };
 		26151DAA228703A9001D7EA8 /* 京都.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151DA5228703A8001D7EA8 /* 京都.jpg */; };
@@ -38,6 +32,14 @@
 		26151DBC22870979001D7EA8 /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151DB422870979001D7EA8 /* c.jpg */; };
 		26151DBE228709DB001D7EA8 /* j.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26151DBD228709DA001D7EA8 /* j.jpeg */; };
 		26151DC022870E75001D7EA8 /* サレジオ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26151DBF22870E73001D7EA8 /* サレジオ.jpg */; };
+		268EBCDE228864DF0010C5AF /* 遊園地.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCDC228864DF0010C5AF /* 遊園地.jpg */; };
+		268EBCDF228864DF0010C5AF /* 自然.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCDD228864DF0010C5AF /* 自然.jpg */; };
+		268EBCE22288668B0010C5AF /* 山.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCE02288668A0010C5AF /* 山.jpg */; };
+		268EBCE32288668B0010C5AF /* 海.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCE12288668B0010C5AF /* 海.jpg */; };
+		268EBCE62288697C0010C5AF /* カフェ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCE42288697C0010C5AF /* カフェ.jpg */; };
+		268EBCE72288697C0010C5AF /* 神社.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCE52288697C0010C5AF /* 神社.jpg */; };
+		268EBCEA228869D50010C5AF /* パワスポ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCE8228869D50010C5AF /* パワスポ.jpeg */; };
+		268EBCEB228869D50010C5AF /* 現実逃避.png in Resources */ = {isa = PBXBuildFile; fileRef = 268EBCE9228869D50010C5AF /* 現実逃避.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,15 +64,9 @@
 		26151D842286F1AB001D7EA8 /* prototype01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prototype01Tests.swift; sourceTree = "<group>"; };
 		26151D862286F1AB001D7EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26151D8F2286FACE001D7EA8 /* ひとり旅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ひとり旅.jpg"; sourceTree = "<group>"; };
-		26151D902286FACE001D7EA8 /* 女友達.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "女友達.jpg"; sourceTree = "<group>"; };
 		26151D912286FACE001D7EA8 /* 男友達.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "男友達.jpg"; sourceTree = "<group>"; };
-		26151D922286FACF001D7EA8 /* 恋人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "恋人.jpg"; sourceTree = "<group>"; };
-		26151D972286FBBE001D7EA8 /* 自然.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "自然.jpg"; sourceTree = "<group>"; };
-		26151D982286FBBE001D7EA8 /* フェス.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "フェス.jpg"; sourceTree = "<group>"; };
-		26151D992286FBBF001D7EA8 /* カフェ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "カフェ.jpg"; sourceTree = "<group>"; };
 		26151D9A2286FBBF001D7EA8 /* 温泉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "温泉.jpg"; sourceTree = "<group>"; };
 		26151D9F2286FC01001D7EA8 /* 祭り.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "祭り.jpg"; sourceTree = "<group>"; };
-		26151DA12286FC46001D7EA8 /* 犬.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犬.jpeg"; sourceTree = "<group>"; };
 		26151DA3228703A7001D7EA8 /* 沖縄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "沖縄.jpg"; sourceTree = "<group>"; };
 		26151DA4228703A7001D7EA8 /* 鎌倉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鎌倉.jpg"; sourceTree = "<group>"; };
 		26151DA5228703A8001D7EA8 /* 京都.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "京都.jpg"; sourceTree = "<group>"; };
@@ -86,6 +82,14 @@
 		26151DB422870979001D7EA8 /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
 		26151DBD228709DA001D7EA8 /* j.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = j.jpeg; sourceTree = "<group>"; };
 		26151DBF22870E73001D7EA8 /* サレジオ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "サレジオ.jpg"; sourceTree = "<group>"; };
+		268EBCDC228864DF0010C5AF /* 遊園地.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "遊園地.jpg"; sourceTree = "<group>"; };
+		268EBCDD228864DF0010C5AF /* 自然.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "自然.jpg"; path = "../../プロコン/自然.jpg"; sourceTree = "<group>"; };
+		268EBCE02288668A0010C5AF /* 山.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "山.jpg"; sourceTree = "<group>"; };
+		268EBCE12288668B0010C5AF /* 海.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海.jpg"; sourceTree = "<group>"; };
+		268EBCE42288697C0010C5AF /* カフェ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "カフェ.jpg"; path = "../../プロコン/カフェ.jpg"; sourceTree = "<group>"; };
+		268EBCE52288697C0010C5AF /* 神社.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "神社.jpg"; sourceTree = "<group>"; };
+		268EBCE8228869D50010C5AF /* パワスポ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "パワスポ.jpeg"; sourceTree = "<group>"; };
+		268EBCE9228869D50010C5AF /* 現実逃避.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現実逃避.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,16 +136,10 @@
 				26151D732286F1A8001D7EA8 /* Main.storyboard */,
 				26151D762286F1AB001D7EA8 /* Assets.xcassets */,
 				26151D782286F1AB001D7EA8 /* LaunchScreen.storyboard */,
-				26151D902286FACE001D7EA8 /* 女友達.jpg */,
 				26151D8F2286FACE001D7EA8 /* ひとり旅.jpg */,
 				26151D912286FACE001D7EA8 /* 男友達.jpg */,
-				26151D922286FACF001D7EA8 /* 恋人.jpg */,
-				26151D992286FBBF001D7EA8 /* カフェ.jpg */,
-				26151D982286FBBE001D7EA8 /* フェス.jpg */,
 				26151D9A2286FBBF001D7EA8 /* 温泉.jpg */,
-				26151D972286FBBE001D7EA8 /* 自然.jpg */,
 				26151D9F2286FC01001D7EA8 /* 祭り.jpg */,
-				26151DA12286FC46001D7EA8 /* 犬.jpeg */,
 				26151DA3228703A7001D7EA8 /* 沖縄.jpg */,
 				26151DA4228703A7001D7EA8 /* 鎌倉.jpg */,
 				26151DA5228703A8001D7EA8 /* 京都.jpg */,
@@ -157,6 +155,14 @@
 				26151DB322870978001D7EA8 /* i.jpeg */,
 				26151DBD228709DA001D7EA8 /* j.jpeg */,
 				26151DBF22870E73001D7EA8 /* サレジオ.jpg */,
+				268EBCDD228864DF0010C5AF /* 自然.jpg */,
+				268EBCDC228864DF0010C5AF /* 遊園地.jpg */,
+				268EBCE12288668B0010C5AF /* 海.jpg */,
+				268EBCE02288668A0010C5AF /* 山.jpg */,
+				268EBCE42288697C0010C5AF /* カフェ.jpg */,
+				268EBCE52288697C0010C5AF /* 神社.jpg */,
+				268EBCE8228869D50010C5AF /* パワスポ.jpeg */,
+				268EBCE9228869D50010C5AF /* 現実逃避.png */,
 				26151D7B2286F1AB001D7EA8 /* Info.plist */,
 			);
 			path = prototype01;
@@ -253,33 +259,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				26151DB722870979001D7EA8 /* g.jpg in Resources */,
-				26151DA22286FC46001D7EA8 /* 犬.jpeg in Resources */,
+				268EBCE32288668B0010C5AF /* 海.jpg in Resources */,
 				26151D952286FACF001D7EA8 /* 男友達.jpg in Resources */,
-				26151D942286FACF001D7EA8 /* 女友達.jpg in Resources */,
-				26151D962286FACF001D7EA8 /* 恋人.jpg in Resources */,
 				26151DBB22870979001D7EA8 /* i.jpeg in Resources */,
 				26151DB522870979001D7EA8 /* h.jpg in Resources */,
-				26151D9C2286FBBF001D7EA8 /* フェス.jpg in Resources */,
 				26151DA9228703A9001D7EA8 /* 鎌倉.jpg in Resources */,
 				26151D932286FACF001D7EA8 /* ひとり旅.jpg in Resources */,
-				26151D9D2286FBBF001D7EA8 /* カフェ.jpg in Resources */,
 				26151DBC22870979001D7EA8 /* c.jpg in Resources */,
 				26151DA8228703A9001D7EA8 /* 沖縄.jpg in Resources */,
+				268EBCEA228869D50010C5AF /* パワスポ.jpeg in Resources */,
+				268EBCEB228869D50010C5AF /* 現実逃避.png in Resources */,
 				26151DB822870979001D7EA8 /* e.jpg in Resources */,
 				26151DAC228703A9001D7EA8 /* 北海道.jpg in Resources */,
 				26151DC022870E75001D7EA8 /* サレジオ.jpg in Resources */,
 				26151D7A2286F1AB001D7EA8 /* LaunchScreen.storyboard in Resources */,
+				268EBCE72288697C0010C5AF /* 神社.jpg in Resources */,
 				26151DB622870979001D7EA8 /* d.jpg in Resources */,
-				26151D9B2286FBBF001D7EA8 /* 自然.jpg in Resources */,
 				26151DA02286FC01001D7EA8 /* 祭り.jpg in Resources */,
 				26151DB922870979001D7EA8 /* f.jpg in Resources */,
 				26151D9E2286FBBF001D7EA8 /* 温泉.jpg in Resources */,
 				26151DAB228703A9001D7EA8 /* 東京.jpg in Resources */,
+				268EBCE62288697C0010C5AF /* カフェ.jpg in Resources */,
 				26151DBA22870979001D7EA8 /* b.jpeg in Resources */,
 				26151D772286F1AB001D7EA8 /* Assets.xcassets in Resources */,
+				268EBCDE228864DF0010C5AF /* 遊園地.jpg in Resources */,
 				26151DAA228703A9001D7EA8 /* 京都.jpg in Resources */,
+				268EBCDF228864DF0010C5AF /* 自然.jpg in Resources */,
 				26151DBE228709DB001D7EA8 /* j.jpeg in Resources */,
 				26151D752286F1A8001D7EA8 /* Main.storyboard in Resources */,
+				268EBCE22288668B0010C5AF /* 山.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
