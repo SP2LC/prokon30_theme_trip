@@ -448,27 +448,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="スクリーンショット 2019-04-28 19.44.10.png" translatesAutoresizingMaskIntoConstraints="NO" id="JgO-Mi-9Ub">
-                                <rect key="frame" x="0.0" y="158" width="414" height="257"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2019-04-28 19.44.10.png" translatesAutoresizingMaskIntoConstraints="NO" id="JgO-Mi-9Ub">
+                                <rect key="frame" x="28" y="225" width="359" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="サレジオ工業高等専門学校" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV6-Vl-HRH">
-                                <rect key="frame" x="0.0" y="109" width="414" height="41"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="サレジオ工業高等専門学校は東京都町田市にある高等専門学校。略称はサレジオ高専。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaB-Wt-DC5">
+                                <rect key="frame" x="17" y="511" width="380.33333333333326" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="サレジオ工業高等専門学校" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gV6-Vl-HRH">
+                                <rect key="frame" x="28" y="182" width="352.33333333333331" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="JgO-Mi-9Ub" firstAttribute="leading" secondItem="Kkp-hI-FeP" secondAttribute="leading" id="6Xb-Hj-CX3"/>
-                            <constraint firstItem="JgO-Mi-9Ub" firstAttribute="trailing" secondItem="Kkp-hI-FeP" secondAttribute="trailing" id="8Jv-SZ-2cP"/>
-                            <constraint firstItem="gV6-Vl-HRH" firstAttribute="leading" secondItem="Kkp-hI-FeP" secondAttribute="leading" id="SPx-4y-bJ5"/>
-                            <constraint firstItem="JgO-Mi-9Ub" firstAttribute="top" secondItem="gV6-Vl-HRH" secondAttribute="bottom" constant="37" id="UVR-7W-1sY"/>
-                            <constraint firstItem="gV6-Vl-HRH" firstAttribute="top" secondItem="Kkp-hI-FeP" secondAttribute="top" constant="90" id="kdG-Kn-EJ4"/>
-                            <constraint firstItem="Kkp-hI-FeP" firstAttribute="trailing" secondItem="gV6-Vl-HRH" secondAttribute="trailing" id="ySs-Hq-CEL"/>
-                            <constraint firstItem="Kkp-hI-FeP" firstAttribute="trailing" secondItem="JgO-Mi-9Ub" secondAttribute="trailing" id="yhV-ON-iq3"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Kkp-hI-FeP"/>
                     </view>
                     <navigationItem key="navigationItem" id="tlz-8o-cxa"/>
